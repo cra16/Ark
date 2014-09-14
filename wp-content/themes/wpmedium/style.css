@@ -336,6 +336,17 @@ option {
     visibility:hidden;
 }
 
+.site-menu ul ul a {
+    min-width:155px;
+    background:none ;
+    padding:12px 15px !important;
+    color:#333333;
+    text-transform:none;
+    font-size:14px;
+    box-shadow:none !important;
+    transition:background 0 linear !important;
+}
+
 .site-menu li  {
     display: block;
     float: left;
